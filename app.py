@@ -20,5 +20,5 @@ if question:
 
     st.subheader("AI Answer")
     st.write(answer)
-if "error" in data:
-    st.error("Failed to fetch monday data")
+    if "error" in data:
+        st.error("Failed to fetch monday data")
